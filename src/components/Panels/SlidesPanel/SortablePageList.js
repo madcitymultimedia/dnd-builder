@@ -17,7 +17,6 @@ const createItemData = memoize((
   onPageRemove,
   pageContainerStyle,
   pageGetter,
-  selectedPageIndex,
 ) => ({
   acceptedItems,
   additionalPageItems,
@@ -31,7 +30,6 @@ const createItemData = memoize((
   onPageRemove,
   pageContainerStyle,
   pageGetter,
-  selectedPageIndex,
 }));
 
 const SortablePageList = Component => {
@@ -40,7 +38,6 @@ const SortablePageList = Component => {
       super(props);
 
       this.sortablePageListRef = createRef();
-      this.sortableOuterRef = createRef();
     }
 
     get itemData() {
@@ -57,7 +54,6 @@ const SortablePageList = Component => {
         onPageRemove,
         pageContainerStyle,
         pageGetter,
-        selectedPageIndex,
       } = this.props;
       return createItemData(
         acceptedItems,
@@ -72,7 +68,6 @@ const SortablePageList = Component => {
         onPageRemove,
         pageContainerStyle,
         pageGetter,
-        selectedPageIndex,
       );
     }
 
@@ -86,7 +81,6 @@ const SortablePageList = Component => {
           itemCount={pageCount}
           itemData={this.itemData}
           itemSize={127}
-          outerRef={this.sortableOuterRef}
           width={width}
         >
           {SortablePageItemRenderer}
@@ -110,7 +104,6 @@ const SortablePageList = Component => {
     pageContainerStyle: PropTypes.shape({}),
     pageCount: PropTypes.number,
     pageGetter: PropTypes.func,
-    selectedPageIndex: PropTypes.number,
     width: PropTypes.number,
   };
 
@@ -129,7 +122,6 @@ const SortablePageList = Component => {
     pageContainerStyle: {},
     pageCount: 0,
     pageGetter: () => {},
-    selectedPageIndex: 1,
     width: 0,
   };
 

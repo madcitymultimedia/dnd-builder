@@ -2,6 +2,89 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.9.3](https://github.com/jotform/dnd-builder/compare/v2.9.2...v2.9.3) (2024-02-14)
+
+
+### Bug Fixes
+
+* **dnd-builder:** fixes for lint ([2ea65b8](https://github.com/jotform/dnd-builder/commit/2ea65b8660fe87d8295bf7cd2149f55ed39e5272))
+* **dnd-builder:** lint fixes ([6790b7c](https://github.com/jotform/dnd-builder/commit/6790b7c9f3d81318770c9e7ad8a04e6761b36f28))
+* **dnd-builder:** text element height update on edit mode ([1ce5e95](https://github.com/jotform/dnd-builder/commit/1ce5e95b20b671deaea4330f00f5de40ea27826b))
+
+### [2.9.2](https://github.com/jotform/dnd-builder/compare/v2.9.1...v2.9.2) (2024-01-16)
+
+### [2.9.1](https://github.com/CemTunaKoc/dnd-builder/compare/v2.9.0...v2.9.1) (2024-01-15)
+
+
+### Bug Fixes
+
+* **dnd-builder:** onPageAdd prop added ([8e44a13](https://github.com/CemTunaKoc/dnd-builder/commit/8e44a130297379a394999fd38618e3846537bbb9))
+
+## [2.9.0](https://github.com/jotform/dnd-builder/compare/v2.8.2...v2.9.0) (2023-12-26)
+
+
+### Features
+
+* **slides-panel:** isThumbnail prop is added for slides panel item ([be0418a](https://github.com/jotform/dnd-builder/commit/be0418a74179e9c885afc17c0a399ed15e7ecff6))
+
+### [2.8.2](https://github.com/jotform/dnd-builder/compare/v2.8.1...v2.8.2) (2023-12-25)
+
+### [2.8.1](https://github.com/jotform/dnd-builder/compare/v2.8.0...v2.8.1) (2023-11-27)
+
+
+### Bug Fixes
+
+* **dnd-builder:** escape escape key ([a4c95e1](https://github.com/jotform/dnd-builder/commit/a4c95e18f41ed546f1cb6fa291a91912fc430537))
+* **dnd-builder:** lint ([7bed875](https://github.com/jotform/dnd-builder/commit/7bed87572c51d0d16cfdf4f8018f9297d744f161))
+* **dnd-builder:** lint ([11b993d](https://github.com/jotform/dnd-builder/commit/11b993d529f9aaee41fa0bf2a25845cf76b3c6eb))
+
+## [2.8.0](https://github.com/jotform/dnd-builder/compare/v2.7.1...v2.8.0) (2023-11-27)
+
+
+### Features
+
+* **dnd-builder:** enforce role-based ignores in click outside ([fce52a3](https://github.com/jotform/dnd-builder/commit/fce52a3d8517b0b66ec5524bd2f3ae27037733aa))
+
+### [2.7.1](https://github.com/jotform/dnd-builder/compare/v2.7.0...v2.7.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* **panel-elements:** size settings lock button alignment ([e221915](https://github.com/jotform/dnd-builder/commit/e22191523a06ba1b6c5616299e4de6eefe20f665))
+
+## [2.7.0](https://github.com/jotform/dnd-builder/compare/v2.6.1...v2.7.0) (2023-10-03)
+
+
+### Features
+
+* exceptionalClass update for resetDefaultText in pageItemResizer ([f4d9a02](https://github.com/jotform/dnd-builder/commit/f4d9a02b40746065a3b5c6d233eae3d17848440a))
+
+### [2.6.1](https://github.com/jotform/dnd-builder/compare/v2.6.0...v2.6.1) (2023-10-03)
+
+## [2.6.0](https://github.com/jotform/dnd-builder/compare/v2.5.10...v2.6.0) (2023-10-03)
+
+
+### Features
+
+* exceptionalClass update for contextMenu in pageItemResizer ([5b8e161](https://github.com/jotform/dnd-builder/commit/5b8e161df9adfb1b701b67346f91872f326dbbac))
+
+### [2.5.10](https://github.com/jotform/dnd-builder/compare/v2.5.9...v2.5.10) (2023-09-13)
+
+
+### Bug Fixes
+
+* **dnd-builder:** temporary fix for chromium svg rendering issue ([8d3b566](https://github.com/jotform/dnd-builder/commit/8d3b56612a423d1e786692dbd0f686d5546a9bd8))
+
+### [2.5.9](https://github.com/jotform/dnd-builder/compare/v2.5.6...v2.5.9) (2023-08-23)
+
+
+### Bug Fixes
+
+* **dnd-builder:** missing translations ([54d8fef](https://github.com/jotform/dnd-builder/commit/54d8feff7ad433504e7b6841ccb5c2e3eeefbb4c))
+* **dnd-builder:** missing translations and search bar icon spacing ([c6a44b7](https://github.com/jotform/dnd-builder/commit/c6a44b79ce89758fcba239688202a4ba0ad1857b))
+* **dnd-builder:** replace images with cdn ([4ac3bb3](https://github.com/jotform/dnd-builder/commit/4ac3bb35ca283ff50a42f8a9e6ce86fd45ca4259))
+* **dnd-builder:** replace images with cdn ([f7d1e4c](https://github.com/jotform/dnd-builder/commit/f7d1e4c1e1f2c9dd76f19528a9a7dc2b5bf24e74))
+
 ### [2.5.8](https://github.com/jotform/dnd-builder/compare/v2.5.6...v2.5.8) (2023-07-26)
 
 
